@@ -5,7 +5,7 @@ formElement.addEventListener('submit', (event) => {
     event.preventDefault();
     const firstName = event.target.firstName.value;
     console.log(firstName);
-    loadAge();
+    loadAge(firstName);
 });
 
 async function loadAge(firstName) {
